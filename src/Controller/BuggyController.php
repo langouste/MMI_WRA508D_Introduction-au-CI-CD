@@ -18,6 +18,9 @@ class BuggyController extends AbstractController
         ]);
     }
 
+    /**
+     * @return array<string, string>
+     */
     private function getData(): array
     {
         return [
